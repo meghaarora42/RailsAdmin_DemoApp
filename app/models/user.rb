@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 
-  has_many :addresses, :dependent => :destroy
-  has_many :orders, :dependent => :destroy
+  has_many :address, :dependent => :destroy
+  has_many :order, :dependent => :destroy
 
 end

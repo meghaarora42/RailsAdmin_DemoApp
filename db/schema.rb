@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150707111643) do
+ActiveRecord::Schema.define(version: 20150709090301) do
 
   create_table "addresses", force: :cascade do |t|
     t.integer  "user_id"
@@ -39,12 +39,6 @@ ActiveRecord::Schema.define(version: 20150707111643) do
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.text   "description"
-  end
-
-  create_table "discounts", force: :cascade do |t|
-    t.string  "type"
-    t.decimal "percentage"
-    t.integer "fixed_amount"
   end
 
   create_table "orders", force: :cascade do |t|

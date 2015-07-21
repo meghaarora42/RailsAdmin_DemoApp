@@ -5,6 +5,7 @@ gem 'cancan'
 gem 'devise', '~> 1.4'
 gem 'rails_admin' #, :git => 'git://github.com/sferik/rails_admin.git'
 gem 'paperclip', '~> 2.4'
+gem 'ffaker'
 
 group :development, :test do
   gem 'sqlite3'

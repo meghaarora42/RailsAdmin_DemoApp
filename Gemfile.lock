@@ -62,6 +62,7 @@ GEM
       warden (~> 1.1)
     erubis (2.7.0)
     execjs (2.5.2)
+    ffaker (2.1.0)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
     globalid (0.3.5)
@@ -184,6 +185,7 @@ DEPENDENCIES
   cancan
   coffee-rails (~> 4.0.0)
   devise (~> 1.4)
+  ffaker
   paperclip (~> 2.4)
   rails (= 4.2.1)
   rails_admin

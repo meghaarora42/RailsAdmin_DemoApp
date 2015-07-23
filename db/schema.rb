@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150709090301) do
+ActiveRecord::Schema.define(version: 20150723101758) do
 
   create_table "addresses", force: :cascade do |t|
     t.integer  "user_id"
@@ -36,11 +36,6 @@ ActiveRecord::Schema.define(version: 20150709090301) do
   add_index "cart_items", ["order_id"], name: "index_cart_items_on_order_id"
   add_index "cart_items", ["product_id"], name: "index_cart_items_on_product_id"
 
-  create_table "categories", force: :cascade do |t|
-    t.string "name"
-    t.text   "description"
-  end
-
   create_table "orders", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "address_id"
@@ -54,25 +49,13 @@ ActiveRecord::Schema.define(version: 20150709090301) do
 
   create_table "products", force: :cascade do |t|
     t.string  "name"
-    t.text    "description_small"
-    t.text    "description_large"
     t.decimal "price"
-    t.integer "category_id"
     t.integer "image_url"
-    t.integer "discount_id"
-  end
-
-  add_index "products", ["category_id"], name: "index_products_on_category_id"
-  add_index "products", ["name"], name: "index_products_on_name"
-
-  create_table "reviews", force: :cascade do |t|
-    t.integer "user_id"
-    t.integer "product_id"
-    t.decimal "rating"
+    t.string  "category"
     t.text    "description"
   end
 
-  add_index "reviews", ["product_id"], name: "index_reviews_on_product_id"
+  add_index "products", ["name"], name: "index_products_on_name"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",              default: "", null: false

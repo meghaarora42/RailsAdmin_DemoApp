@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color:$grayDark;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background:$grayDark;
+}
+
+.nav-pills > li > a:hover {
+  background: $grayLight;
+  color:$grayDarker;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:$white; 
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+  color:$white;
+}
+
+.breadcrumb , .well {
+  background-color:$grayLight;
+}
+
+.sidebar-nav {
+  
+  background-color:#ffffff!important;
+  padding:10px!important;
+}
+
+.nav-stacked {
+  background-color:$grayLight;
+  border-left:10px;
+}
+
+.navbar-default {
+  background-color: $blueDark;
+}
+
+body.rails_admin .sidebar-nav .dropdown-header
+{
+  color: $blueDark;
+  font-size: large;
+}

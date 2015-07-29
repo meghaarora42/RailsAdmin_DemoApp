@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+/* line 4, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+/* line 9, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* line 14, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* line 19, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* line 24, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 29, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+h6 {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+/* line 35, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+p {
+  margin-bottom: 1em;
+}
+
+/* line 40, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 44, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+a {
+  color: #7b8a8b;
+}
+
+/* line 48, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: #7b8a8b;
+}
+
+/* line 52, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.nav-pills > li > a:hover {
+  background: #e5e4e2;
+  color: #222222;
+}
+
+/* line 57, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+/* line 61, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
+  color: white;
+}
+
+/* line 65, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.breadcrumb, .well {
+  background-color: #e5e4e2;
+}
+
+/* line 69, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.sidebar-nav {
+  background-color: white !important;
+  padding: 10px !important;
+}
+
+/* line 75, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.nav-stacked {
+  background-color: #e5e4e2;
+  border-left: 10px;
+}
+
+/* line 80, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+.navbar-default {
+  background-color: #2c3e50;
+}
+
+/* line 85, /Users/jayasimehar/Projects/RailsAdmin_DemoApp/app/assets/stylesheets/rails_admin/custom/theming.scss */
+body.rails_admin .sidebar-nav .dropdown-header {
+  color: #2c3e50;
+  font-size: large;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

@@ -2,16 +2,21 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.1'
 gem 'cancan'
-gem 'devise', '~> 1.4'
+#gem 'devise', '~> 1.4'
 gem 'rails_admin' #, :git => 'git://github.com/sferik/rails_admin.git'
 gem 'paperclip', '~> 2.4'
 gem 'ffaker'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'sqlite3'
  # gem 'debugger'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+end
+
+group :production do
+	gem 'pg'
 end
 
 group :assets do

@@ -4,9 +4,9 @@ gem 'rails', '4.2.1'
 gem 'cancan'
 #gem 'devise', '~> 1.4'
 gem 'rails_admin' #, :git => 'git://github.com/sferik/rails_admin.git'
-gem 'paperclip', '~> 2.4'
+gem "paperclip", "~> 4.3"
 gem 'ffaker'
-gem 'turbolinks'
+gem 'turbolinks', '~> 2.3.0'
 
 group :development, :test do
   gem 'sqlite3'

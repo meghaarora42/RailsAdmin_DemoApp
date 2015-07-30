@@ -1,81 +1,65 @@
 --- 
 - :name: "Ruby on Rails Tote"
   :category: "Clothing"
-  :image_url: ""
   :price: 15.99
   :description: "This is a sample product."
 - :name: "Ruby on Rails Bag"
   :category: "Clothing"
-  :image_url: ""
   :price: 22.99
   :description: "This is a sample product."
 - :name: "Ruby on Rails Baseball Jersey"
   :category: "Clothing"
-  :image_url: ""
   :price: 19.99
   :description: "This is a sample product."
 - :name: "Ruby on Rails Jr. Spaghetti"
   :category: "Clothing"
-  :image_url: ""
   :price: 19.99
   :description: "This is a sample product."
 - :name: "Ruby on Rails Ringer T-Shirt"
-  :image_url: ""
   :category: "Clothing"
   :price: 19.99
   :description: "This is a sample product."
 - :name: "Ruby Baseball Jersey"
   :category: "Clothing"
-  :image_url: ""
   :price: 19.99
   :description: "This is a sample product."
 - :name: "Apache Baseball Jersey"
   :category: "Clothing"
-  :image_url: ""
   :price: 19.99
   :description: "This is a sample product."
 - :name: "RailsAdmin Baseball Jersey"
   :category: "Clothing"
-  :image_url: ""
   :price: 19.99
   :description: "This is a sample product."
 - :name: "RailsAdmin Jr. Spaghetti"
   :category: "Clothing"
-  :image_url: ""
   :price: 19.99
   :description: "This is a sample product."
 - :name: "RailsAdmin Ringer T-Shirt"
   :category: "Clothing"
-  :image_url: ""
   :price: 19.99
   :description: "This is a sample product."
 - :name: "RailsAdmin Tote"
   :category: "Clothing"
-  :image_url: ""
   :price: 15.99
   :description: "This is a sample product."
 - :name: "RailsAdmin Bag"
   :category: "Backpacks"
-  :image_url: ""
   :price: 22.99
   :description: "This is a sample product."
 - :name: "Ruby on Rails Mug"
   :category: "Kitchen & Dining"
-  :image_url: ""
   :price: 13.99
   :description: "This is a sample product."
 - :name: "Ruby on Rails Stein"
   :category: "Kitchen & Dining"
-  :image_url: ""
   :price: 16.99
   :description: "This is a sample product."
 - :name: "RailsAdmin Stein"
-  :image_url: ""
   :category: "Kitchen & Dining"
   :price: 16.99
   :description: "This is a sample product."
 - :name: "RailsAdmin Mug"
   :category: "Kitchen & Dining"
-  :image_url: ""
   :price: 13.99
   :description: "This is a sample product."

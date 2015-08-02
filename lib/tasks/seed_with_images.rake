@@ -1,9 +1,9 @@
 namespace :db do
   desc "Recreate Image attachments and save them in database"
-  task :seed_with_images => [:seed] do
+  task :seed_with_images => :environment do
     Product.find_each do |product|
-      unless product.image_file_name.blank?
-        filename = Rails.root.join('public', 'system', 'images', product.id.to_s + '.jpg')
+      if product.image_file_name.blank?
+        filename = Rails.root.join('public', 'system', 'images', '1.jpg')
 
         if File.exists? filename
           puts "Re-saving image attachment #{product.id} - #{filename}"

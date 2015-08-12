@@ -1,19 +1,22 @@
 namespace :db do
+  s3 = AWS::S3.new
   desc "Recreate Image attachments and save them in database"
   task :seed_with_images => :environment do
     Product.find_each do |product|
-      if product.image_file_name.blank?
-        filename = Rails.root.join('public', 'system', 'images', product.id.to_s + '.jpg')
-
-        if File.exists? filename
-          puts "Re-saving image attachment #{product.id} - #{filename}"
-          image = File.new filename
-          product.image = image
-          product.save!
-          # if there are multiple styles, you want to recreate them :
-          product.image.reprocess! 
-          image.close
+      filename = 'products/images/default_' + product.id.to_s + '.jpg'
+      object = s3.buckets['railsadminstore'].objects[filename]
+      if object != nil
+        File.open('seedImage.png', 'wb') do |file|
+          object.read do |chunk|
+            file.write(chunk)
+          end
         end
+        puts "Image attachement reset"
+        image = File.new 'seedImage.png'
+        product.image = image
+        product.save!
+        product.image.reprocess! 
+        image.close
       end
     end
   end

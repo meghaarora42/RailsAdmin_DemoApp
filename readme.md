@@ -12,8 +12,14 @@ RailsAdmin is a Rails engine that provides an easy-to-use interface for managing
 1. Fork and clone the repository.
 2. Run `bundle install`.
 3. Run the migrations.
-4. Run `rake db:setup` followed by `rake db:seed_with_images`.
-5. Start a server `rails s` and administer the data at [/admin](http://localhost:3000/admin).
+4. Set up your config variables for aws. This can be done as follows: 
+   * <code> export AWS_ACCESS_KEY_ID='your_aws_access_id' </code>
+   * <code> export AWS_SECRET_ACCESS_KEY='your_aws_access_key'</code>
+   * <code> export S3_BUCKET_NAME='your_s3_bucket_name'</code>
+4. Run `rake db:setup`. This would load some test data that we have populated. 
+5. Running `rake db:seed_with_images` would load default images for you IF you have them in your S3 bucket. 
+The path for those images need to be `products/images/default_productID.jpg`
+You can skip this step if you don't want to populate default images. 
 
 Note: In case views are not loading (as in the deployed version), delete tmp/cache and run `rake assets:clean`.
 

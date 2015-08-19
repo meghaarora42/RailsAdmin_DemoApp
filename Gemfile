@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.1'
 gem 'cancan'
-#gem 'devise', '~> 1.4'
 gem 'rails_admin' #, :git => 'git://github.com/sferik/rails_admin.git'
 gem "paperclip", "~> 4.3"
 gem 'ffaker'
@@ -11,7 +10,6 @@ gem 'aws-sdk', '~> 1.6'
 
 group :development, :test do
   gem 'sqlite3'
- # gem 'debugger'
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'rspec-rails'

@@ -7,6 +7,7 @@ gem 'rails_admin' #, :git => 'git://github.com/sferik/rails_admin.git'
 gem "paperclip", "~> 4.3"
 gem 'ffaker'
 gem 'turbolinks', '~> 2.3.0'
+gem 'aws-sdk', '~> 1.6'
 
 group :development, :test do
   gem 'sqlite3'
